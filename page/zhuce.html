@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+     input{
+         margin-bottom: 10px;
+         color: #ccc;
+        
+     }
+     .header{
+            width: 980px;
+            /* border: 1px  solid red; */
+            margin: 0 auto;
+            height: 88px;
+            line-height: 88px;
+        }
+        .header img{
+            display:inline-block;
+       
+        }
+        .header p{
+            float: right;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+        a:hover{
+            color: #ff8f67;
+        }
+     .header-1{
+         width: 800px;
+         margin: 40px auto;
+         background: lightcyan;
+         /* text-align: center; */
+         /* overflow: hidden; */
+     }
+    table{
+        width: 800px;
+    }
+    button{
+    background: #f40;
+    border-color: #f40;
+    font-size: 16px;
+    width: 300px;
+    height: 30px;
+    color: white;
+    margin-bottom: 30px;
+  }
+  input{
+    line-height: 42px;
+      border-color: #f1eeee;
+      border: 1px solid #ccc;
+    height: 42px;
+    outline: none;
+    font-size: 14px;
+    width: 250px;
+    /* padding-left: 50px; */
+    text-align: left;
+  }
+  tr,td{
+    width: 800px;
+    
+  }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="./list.html"> <img src="../img/01.png" alt=""></a>
+     </div>
+    <div class="header-1">
+        <h3 class="deng" style="color:#ff8f67 ; text-align: center;">请你注册</h3>
+    <form action="../php/zhuce.php" method="GET">
+    <table>
+        <tr>
+            
+            <td>用户名：<input type="text" name="username" value="请填写用户名"><span></span></td>
+        </tr>
+        <tr>
+           
+            <td>姓名：<input type="text" name="username1" value="请填写你的姓名"><span></span></td>
+        </tr>
+        <tr>
+           
+            <td>邮箱：<input type="text" name="email" value="请填写你的邮箱"><span></span></td>
+        </tr>
+        <tr>
+        
+            <td>证件号码：<input type="text" name="zheng" value="请填写你的身份证号码"><span></span></td>
+        </tr>
+        <tr>
+          
+            <td>证件类型：
+                <select name="" id="" style="width: 100px;">
+                <option value="">中国居民身份证</option>
+                <option value="江西省南昌市">外国人永久居留身份证</option>
+                <option value="江西省上饶市">港澳区居民身份证</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="xuan" style="width: 15px;height: 15px;">我已阅读<span></span></td>
+        </tr>
+        <tr>
+            
+            <td>密码：<input type="password" name="pwd1" ><span></span></td>
+        </tr>
+        <tr>
+         
+            <td>确认密码：<input type="password" name="pwd2"><span></span></td>
+        </tr>
+        <tr>
+            <td  style="text-align: center;"><button type="submit">我已同意并注册</button></td>
+           
+        </tr>
+    </table>
+    
+
+</table>
+</form>
+</div>
+</body>
+<script src="../js/jquery-1.11.0.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/ajax.js"></script>
+<script src="../js/zhuce.js"></script>
+<script>
+    
+    // console.log(location.href)
+</script>
+</html>

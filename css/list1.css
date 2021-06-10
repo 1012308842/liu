@@ -1,0 +1,69 @@
+.lunbo{
+    width: 1200px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.box_1{
+    width: 1000px;
+    height: 300px;
+    position: relative;
+    margin: 20px auto;
+  
+}
+.mark1{
+    width: 1000px;
+    height: 300px;
+    overflow: hidden;
+}
+.div{
+    width: 6000px;
+    height: 300px;
+    overflow: auto;
+}
+.div img{
+    float: left;
+    width: 1000px;
+    height: 300px;
+}
+.lunbo ul{
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+.lunbo li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: pink;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    margin-top: -15px;
+    left: 20px;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    margin-top: -15px;
+    right: 20px;
+}
+.lunbo .bg{
+    background: purple;
+}

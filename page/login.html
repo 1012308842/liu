@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            width: 980px;
+            /* border: 1px  solid red; */
+            margin: 0 auto;
+            height: 88px;
+            line-height: 88px;
+        }
+        .header img{
+            display:inline-block;
+       
+        }
+        .header p{
+            float: right;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+        a:hover{
+            color: #ff8f67;
+        }
+        .banner{
+            background: url(../img/02.jpg) no-repeat center center;
+            height: 600px;
+            width: 100%;
+        }
+        .banner-1{
+            width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+            position: relative;
+            height: 600px;
+            
+         /* border: 1px solid red; */
+}
+       .banner-2{
+        position: absolute;
+    width: 630px;
+    height: 440px;
+    left: 80px;
+    top: 80px;
+    /* border: 1px solid red; */
+       }   
+       .login {
+    position: absolute;
+    top: 120px;
+    right: 60px;
+    width: 350px;
+    /* border: 1px solid red; */
+    background: hsla(0,0%,100%,.9);
+    text-align: center;
+}
+  input{
+     
+      line-height: 42px;
+      border-color: #f1eeee;
+      border: 1px solid #ccc;
+    height: 42px;
+    outline: none;
+    font-size: 14px;
+    width: 250px;
+    /* padding-left: 50px; */
+    text-align: left;
+  }
+  button{
+    background: #f40;
+    border-color: #f40;
+    font-size: 16px;
+    width: 300px;
+    height: 30px;
+    color: white;
+    margin-bottom: 30px;
+  }
+    </style>
+</head>
+<body>
+    <div class="header">
+       <a href="./list.html"> <img src="../img/01.png" alt=""></a>
+      <a href="https://survey.taobao.com/survey/Q095thIx2
+      ?spm=a2107.1.0.0.56ee11d9eD10NM"><p> "登录页面"的改进建议</p></a> 
+    </div>
+    <div class="banner">
+       <div class="banner-1">
+           <a href="https://www.taobao.com
+           /m?spm=a2107.1.0.0.56ee11d9FuQtFK" class="banner-2"></a>
+           <form action="">
+        <div class="login">
+            <h3 class="deng">密码登录</h3>
+            <br>
+          用户名：<input type="text" name="username" placeholder="会员名/邮箱/手机号">
+          <br>
+          <br>
+           密码：&nbsp;&nbsp; <input type="password" name="pass" placeholder="请输入登录密码">
+          <br>
+          <br>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" style="width:15px;height: 15px;"> 请选择
+            </label>
+          <button type="button" disabled>登录</button>
+          <button type="button"><a href="./zhuce.html" style="color: white;"> 注册</a></button>
+        </div>
+    </form>
+       </div>
+    </div>
+    
+    <!-- <script src="../js/bootstrap.js"></script> -->
+    <script src="../js/jquery-1.11.0.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>

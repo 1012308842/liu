@@ -1,0 +1,18 @@
+<?php
+include "./datas.php";
+//编写sql语句
+$sql="select * from liu2";
+//执行sql语句
+$result=mysqli_query($link,$sql);
+//创建存放所有数据的数组
+$arr=[];
+//遍历结果集中每条数据
+while($row=mysqli_fetch_assoc($result)){
+    //把遍历出来的数据，追加到数组中
+    array_push($arr,$row);
+}
+//把数组转为字符串并响应给客户端
+echo json_encode($arr);
+//关闭数据库
+mysqli_close($link);
+?>
